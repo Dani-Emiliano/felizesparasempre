@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+:root{
+    --cor-de-fundo: #FF69B4;
+    --cor-de-letra: white;
+    --cor-de-Letra:black;
+    --cor-de-Letra2: #ffcc00;
+    --cor-de-realce: #00008B;
+    --letra-2:'Gloria Hallelujah';
+}
+.cabecalho{
+    padding: 2% 5% 1% 5%;
+    display: flex;
+    flex-direction:column;
+}
+.cabecalho_menu__Link{
+    text-align: center;
+    color: var(--cor-de-letra);
+    font-size: x-large;
+    font-weight: 200%;
+    margin-left: 5%;
+    text-decoration: none;
+    font-style: italic;
+}
+.cabecalho_menu__Link:hover{
+    background-color: var(--cor-de-realce);
+}
+body{
+    width:100%;
+    background-image: url("imagem_de_fundo\ -\ Copia.jpg");
+    font-family: var(--letra-2);
+    color: var(--cor-de-letra);
+
+}
+
+.conteudo{
+    display: flex;
+    align-items:center;
+    width: 75%;
+    margin: 0% 5% 0% 15%;
+    padding:0%;
+    
+
+}
+.conteudo__conteudo{
+    
+    margin: 2% 5% 5% 20%;
+    text-align: justify;
+
+
+
+
+}
+.conteudo__conteudo__titulo{
+    font-size:xxx-large;
+    font-weight: 100%;
+    margin-bottom: -2%;
+    color: var(--cor-de-Letra2);
+
+
+}
+
+.conteudo__conteudo__paragrafo{
+
+    font-size: xx-large;
+    font-weight: 400%;
+    margin-bottom: 2%;
+    font-style: italic;
+}
+.conteudo__conteudo__paragrafo__lista{
+
+    font-size: xx-large;
+    font-weight: 400%;
+    margin-bottom: 2%;
+    font-style: italic;
+    color: var(--cor-de-Letra2);
+}
+
+.rodape{
+    font-family: var(--letra-2);
+    font-size: x-large;
+    font-weight: 300%;
+    color: var(--cor-de-fundo);
+    background-color: var(--cor-de-Letra);
+    text-align: center;
+    padding: 2% 
+}
+
+.conteudo__conteudo__link__link {
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    gap:1REM;
+    width: 40%; 
+    text-align:CENTER;
+    color: var(--cor-de-fundo);
+    border: 1% solid var(--cor-de-realce);
+    border-radius:1.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-decoration: none;
+    font-family: var(--letra-2);
+    font-weight: 300%;
+    margin: 0%;
+    font-style:italic;
+    align-items: center;
+    margin-left: 25%; 
+
+
+}
+.imagem{
+    align-items:start;
+}
+.conteudo__conteudo__link__link:hover{
+/* hover permite animações quando o mouse passa por cima de algo */
+
+    background-color: var(--cor-de-realce);
+    
+}
