@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+:root{
+    --cor-de-fundo: #FF69B4;
+    --cor-de-letra: white;
+    --cor-de-Letra2: #ffcc00;
+
+    --cor-de-realce: #00008B;
+    --imagem-lgnt:url("./imagens/lgbt.jpg")
+    --letra-1:cursive;
+    --letra-2:'Gloria Hallelujah';
+}
+.cabecalho{
+    padding: 2% 5% 1% 5%;
+    display: flex;
+    flex-direction:column;
+}
+
+.cabecalho_menu__Link{
+    text-align: center;
+    color: var(--cor-de-letra);
+    font-size: x-large;
+    font-weight: 200%;
+    margin-left: 8%;
+    text-decoration: none;
+    font-style: italic;
+
+}
+.cabecalho_menu__Link:hover{
+    background-color: var(--cor-de-realce);
+}
+body{
+    width:100%;
+    font-family: 'Gloria Hallelujah';
+    background-image: url("imagem_de_fundo\ -\ Copia.jpg");
+    margin: 2% 2% 2% 2%;
+    color: var(--cor-de-letra);
+
+}
+
+.conteudo{
+}
+.conteudo__presentes{
+    font-weight: 700%;
+    color:var(--cor-de-Letra2);
+    text-align: center;
+    font-style:italic;
+
+  
+}
+.conteudo__presentes__intro{
+    margin-left: 35%;
+    margin-right: 5%;
+    align-items: center;
+    font-weight: 100%;
+    font-size: large;
+    color: var(--cor-de-letra);
+    text-align: justify;
+    font-style:italic;
+}
+.conteudo__casa{
+    font-weight: 500%;
+    color: var(--cor-de-realce);
+    text-align: center;
+    font-style:italic;
+    background-color:var(--cor-de-fundo);
+
+
+}
+
+.conteudo__casa__casa{
+    display: flex;
+    flex-direction: row;
+    align-items:first baseline baseline;
+    color:var(--cor-de-letra);
+    gap: 5%;
+    justify-content: center;
+    margin: 2% 2% 2% 2%;
+}
+.conteudo__casa__casa__unica{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    color:var(--cor-de-letra);
+    border: 5px solid var(--cor-de-letra);
+    text-align:left;
+
+
+
+}
+.conteudo__casa__descricao{
+    
+
+
+
+}
+
+.viagem{
+font-weight: 500%;
+color: var(--cor-de-realce);
+text-align: center;
+font-style:italic;
+background-color:var(--cor-de-fundo);
+}
+
+.conteudo__viagem{
+text-align: center;
+margin-top: 5%;
+}
+.conteudo__viagem__Linha{
+    display: flex;
+    flex-direction: row;
+    align-items:first baseline baseline;
+    color: var(--cor-de-fundo);
+    gap: 2%;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.conteudo__viagem__Linha__coluna{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    color: var(--cor-de-letra);
+    border: 5px solid var(--cor-de-letra);
+    text-align:left;
+}
+
+
+.formulario{
+    justify-content: center;
+    text-align: center;
+    
+}
+.formulario__link{
+    background-color:var(--cor-de-fundo);
+    display: flex;
+    justify-content: center;
+    gap:1REM;
+    width: 40%; 
+    text-align:CENTER;
+    color: var(--cor-de-letrar-de-realce);
+    border: 1% solid var(--cor-de-realce);
+    border-radius:1.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-decoration:wavy;
+    font-family: var(--letra-1);
+    font-weight: 300%;
+    margin: 0%;
+    font-style:italic;
+    align-items: center;
+    margin-left: 25%;     
+}
+.formulario__link:hover{
+    /* hover permite animações quando o mouse passa por cima de algo */
+    
+        background-color: var(--cor-de-realce);
+        color: var(--cor-de-fundo);
+        
+    }
+    
+
+
+
+.rodape{
+    font-family: var(--letra-1);
+    font-size: x-large;
+    font-weight: 300%;
+    color: var(--cor-de-fundo);
+    background-color: black;
+    text-align: center;
+    padding: 2% 
+}
