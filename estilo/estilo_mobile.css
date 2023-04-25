@@ -87,7 +87,13 @@
         height: auto;
     }
 
-
+    .image_presente_3{
+        left: 2%;
+        top:50%;
+        position: absolute;
+        width: 25%;
+        height: auto;
+    }
     
 
         .conteudo__conteudo__link__link {
