@@ -170,3 +170,13 @@ margin-top: 5%;
     text-align: center;
     padding: 2% 
 }
+
+
+
+.image_evento_3{
+    left:10%;
+    top:20%;
+    position: absolute;
+    width: 19%;
+    height: auto;
+}

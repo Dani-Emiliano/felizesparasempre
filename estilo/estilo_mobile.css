@@ -1,0 +1,147 @@
+@media (max-width:600px) {
+    .cabecalho{
+        padding: 0% -5% -5% 0%;
+    }
+    .cabecalho_menu__Link{
+        display: flex;
+        font-size: medium;
+        font-weight: 200%;
+
+
+
+    }
+ 
+    
+
+   
+    .conteudo__conteudo__titulo{
+        font-size:small;
+        font-weight: 50%;
+
+    
+    
+    }
+    
+    .conteudo__conteudo__paragrafo{
+    
+        font-size:small;
+        font-weight: 50%;
+    }
+    .conteudo__conteudo__paragrafo__lista{
+    
+        font-size:small;
+        font-weight: 50%;
+    }
+    
+    .rodape{
+        font-size:medium;
+        font-weight: 50%;
+    }
+    
+    .conteudo__conteudo__link__link {
+        font-size:small;
+        font-weight: 50%;
+    
+    
+    }
+
+    .image{
+        left: 5%;
+        top:40%;
+        position: absolute;
+        width:25%; 
+    }
+    .image_Lista{
+        left: 5%;
+        top:40%;
+        position: absolute;
+        width:25%;
+    }
+    
+    .image_evento_1{
+        left: 2%;
+        top:40%;
+        position: absolute;
+        width: 25%;
+        height: auto;
+    }
+    .image_evento_2{
+        left: 2%;
+        top:80%;
+        position: absolute;
+        width: 25%;
+        height: auto;
+    }
+    .image_evento_3{
+        left: 2%;
+        top:108%;
+        position: absolute;
+        width: 25%;
+        height: auto;
+    }
+    .image_evento_4{
+        left: 2%;
+        top:135%;
+        position: absolute;
+        width: 25%;
+        height: auto;
+    }
+
+
+    
+
+        .conteudo__conteudo__link__link {
+
+            gap:0.1REM;
+            width: 80%; 
+            border: 1% solid var(--cor-de-realce);
+            border-radius:1.2rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            font-weight: 500%;
+            margin-left: 5%; 
+                
+        }
+
+
+        .formulario__link{
+
+            gap:0.1REM;
+            width: 80%; 
+            border: 1% solid var(--cor-de-realce);
+            border-radius:1.2rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            font-weight: 500%;
+            margin-left: 5%;         
+        }
+
+
+        .conteudo__presentes__intro{
+            margin-left: 35%;
+            margin-right: 5%;
+            font-weight: 50%;
+            font-size: small;
+            
+        }
+        .conteudo__viagem__Linha{
+            gap: 0%;
+
+            margin: 0%;
+        }
+        .conteudo__viagem__Linha__coluna img {
+            max-width: 75px;max-height: 50px;}       
+        .conteudo__casa__casa__unica img{ 
+            max-width: 150px;max-height: 100px;
+        }
+        .conteudo__viagem__Linha__coluna{
+        border: 1px solid var(--cor-de-letra);
+        text-align:left;
+    }
+
+
+
+
+
+
+}
