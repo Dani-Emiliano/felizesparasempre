@@ -164,3 +164,9 @@ body{
     top:25%;
     position: absolute;
 }
+.image__menu{
+    left:70%;
+    top:-10%;
+    position: absolute;
+    width: 25%;
+}

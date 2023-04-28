@@ -180,3 +180,9 @@ margin-top: 5%;
     width: 19%;
     height: auto;
 }
+.image__menu{
+    left:80%;
+    top:-10%;
+    position: absolute;
+    width: 25%;
+}
