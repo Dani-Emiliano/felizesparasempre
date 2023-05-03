@@ -20,25 +20,24 @@
     color: var(--cor-de-letra);
     font-size: x-large;
     font-weight: 200%;
-    margin-left: 8%;
+    margin-left: 5%;
     text-decoration: none;
     font-style: italic;
 
 }
+
 .cabecalho_menu__Link:hover{
     background-color: var(--cor-de-realce);
 }
 body{
-    width:100%;
     font-family: 'Gloria Hallelujah';
     background-image: url("imagem_de_fundo\ -\ Copia.jpg");
-    margin: 2% 2% 2% 2%;
+    margin: 2% -2% 2% 2%;
     color: var(--cor-de-letra);
 
 }
 
-.conteudo{
-}
+
 .conteudo__presentes{
     font-weight: 700%;
     color:var(--cor-de-Letra2);
@@ -181,7 +180,8 @@ margin-top: 5%;
     height: auto;
 }
 .image__menu{
-    left:83%;
+    left:75%;
     top:0%;
     position: absolute;
     width: 15%;
+}
